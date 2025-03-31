@@ -60,9 +60,9 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     ```bash
     conda activate myenv
     ```
-- **Switch back to the base environment:**
+- **Switch back to the previous environment:**
     ```bash
-    conda activate base
+    conda deactivate
     ```
 - **List all environments:**
     ```bash
@@ -75,6 +75,36 @@ Conda environments allow you to maintain isolated setups with specific Python ve
 
 
 ### Manage Version Control (Optional)
+Git is a version control system (VCS) that helps developers track changes in their code, collaborate with others, and manage different versions of a project efficiently. Most Linux distributions come with git. If not, install git with:
+```
+sudo aptitude install git
+```
+
+Connect local git to GitHub:
+
+Set up identity:
+`$ git config --global user.name "<Your Name>"`
+`$ git config --global user.email <your email>`
+
+Save credential for 6 hours:
+`$ git config --global credential.helper 'cache --timeout=21600'`
+
+Save credential permanently:
+`$ git config --global credential.helper store`
+
+
+[GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic):
+
+GitHub token is only presented one time at the creation. If a workstation is set top store the credential, the token can be found in `~/.git-credentials` file.
+
+Git Cheatsheet:
+
+Git Video Tutorial:
+
+Git moment - now you know why you need git:
+[Oh Shit Git](https://ohshitgit.com/)
+
+
 
 ## Introduction to Machine Learning
 
