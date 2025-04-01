@@ -14,7 +14,8 @@ A Python programming environment typically consists of the following components:
 - **Integrated Development Environment (IDE):** Tools like PyCharm, VS Code, or Jupyter Notebook to write, debug, and manage your code efficiently.
 - **Packages and Modules:** Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
 
-### 2.1. Windows - WSL (Only applicable to Windows users)
+<details>
+<summary>### 2.1. Windows - WSL (Only applicable to Windows users)</summary>
 While Linux and macOS come with a built-in Linux-like environment, Windows users need to install the Windows Subsystem for Linux (WSL) to access a Linux terminal. You can find the installation guide at [Microsoft Learn - Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
@@ -24,6 +25,7 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 3. Once the installation completes, restart your computer.
 4. After restarting, search for **"Ubuntu"** in the Windows Start Menu to launch the WSL Ubuntu app.
 5. On the first launch, WSL will take some time to initialize. You will then be prompted to set up a username and password for the first user.
+</details>
 
 ### 2.2. Integrated Development Environment (IDE) - Choose one
 - **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
