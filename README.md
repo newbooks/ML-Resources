@@ -189,11 +189,11 @@ Here is a collection of very short videos that explain basic concepts of Machine
 3. **[Machine Learning Fundamentals: The Confusion Matrix](https://youtu.be/Kdsp6soqA7o?si=cHPREZ2vvvZWE8pF)**  
     *Duration: 7 minutes*  
     This video introduces the confusion matrix, a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
-4. **[Machine Learning Fundamentals: Sensitivity and Specificity](https://youtu.be/vP06aMoz4v8?si=FIgghaSUcheQZySW)**
-    *Duration: 11 minutes*  
+4. **[Machine Learning Fundamentals: Sensitivity and Specificity](https://youtu.be/vP06aMoz4v8?si=FIgghaSUcheQZySW)**  
+    *Duration: 11 minutes*    
     This video demonstrates how to compute and understand sensitivity, the proportion of true positive cases correctly identified, and specificity, the proportion of true negative cases correctly identified. It uses confusion matrices with multiple categories to assess the performance of machine learning models.
-5. **[The Sensitivity, Specificity, Precision, Recall Sing-a-Long!!!](https://youtu.be/PWvfrTgaPBI?si=Da5HjoP68kXv1D1t)**
-    *Duration: 1 minute*
+5. **[The Sensitivity, Specificity, Precision, Recall Sing-a-Long!!!](https://youtu.be/PWvfrTgaPBI?si=Da5HjoP68kXv1D1t)**  
+    *Duration: 1 minute*  
     This video revisits the following key metrics in machine learning:
 
     - **Sensitivity:** The proportion of actual positives that are correctly identified.
