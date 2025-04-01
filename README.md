@@ -29,10 +29,15 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 </details>
 
 ### 2.2. Integrated Development Environment (IDE) - Choose one
+<details>
+<summary>Click here to expand</summary>
 - **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
 - **[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download):** A Python-focused IDE designed for efficient coding and debugging.
+</details>
 
 ### 2.3. Managing Environments and Packages with Miniconda
+<details>
+<summary>Click here to expand</summary>
 Miniconda is a lightweight tool for managing Python environments and packages efficiently.
 
 #### 2.3.1. Installing Miniconda
@@ -75,9 +80,11 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     ```bash
     conda env remove --name myenv
     ```
-
+</details>
 
 ### 2.4. Version Control with Git (Optional)
+<details>
+<summary>Click here to expand</summary>
 Git is a powerful version control system (VCS) that allows developers to track code changes, collaborate effectively, and manage project versions. Most Linux distributions include Git by default. If not, you can install it using:
 ```bash
 sudo aptitude install git
@@ -158,6 +165,7 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   ```bash
   git commit -a -m "[commit message]"
   ```
+</details>
 
 ## 3. Introduction to Machine Learning
 
@@ -166,6 +174,8 @@ Machine learning models learn patterns from input-output data during training an
 For an interactive demonstration of how Neural Networks work, check out this [interactive web page](https://playground.tensorflow.org/).
 
 ### 3.1. Video Resources for Basic Machine Learning Concepts
+<details>
+<summary>Click here to expand</summary>
 Here is a collection of very short videos that explain basic concepts of Machine Learning. Source: [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
 1. **[A Gentle Introduction to Machine Learning](https://youtu.be/Gv9_4yMHFhI?si=4Vc0WXy5EIzLzmUU)**  
@@ -179,6 +189,7 @@ Here is a collection of very short videos that explain basic concepts of Machine
 3. **[Machine Learning Fundamentals: The Confusion Matrix](https://youtu.be/Kdsp6soqA7o?si=cHPREZ2vvvZWE8pF)**  
     *Duration: 7 minutes*  
     This video introduces the confusion matrix, a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
+</details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians
 
