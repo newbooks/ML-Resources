@@ -10,16 +10,11 @@ In this guide, I have curated a selection of resources to assist beginners in ge
 ## 2. Setting Up Python Programming Environment
 A Python programming environment typically consists of the following components:
 
-### 2.1. Linux-like Environment
-A terminal-based setup or tools that emulate a Linux environment for seamless development.
+- **Linux-like Environment:** A terminal-based setup or tools that emulate a Linux environment for seamless development.
+- **Integrated Development Environment (IDE):** Tools like PyCharm, VS Code, or Jupyter Notebook to write, debug, and manage your code efficiently.
+- **Packages and Modules:** Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
 
-### 2.2. Integrated Development Environment (IDE)
-Tools like PyCharm, VS Code, or Jupyter Notebook to write, debug, and manage your code efficiently.
-
-### 2.3. Packages and Modules
-Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
-
-### 2.4. Windows - WSL (Only applicable to Windows users)
+### 2.1. Windows - WSL (Only applicable to Windows users)
 While Linux and macOS come with a built-in Linux-like environment, Windows users need to install the Windows Subsystem for Linux (WSL) to access a Linux terminal. You can find the installation guide at [Microsoft Learn - Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
@@ -30,17 +25,17 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 4. After restarting, search for **"Ubuntu"** in the Windows Start Menu to launch the WSL Ubuntu app.
 5. On the first launch, WSL will take some time to initialize. You will then be prompted to set up a username and password for the first user.
 
-### 2.5. Integrated Development Environment (IDE) - Choose one
+### 2.2. Integrated Development Environment (IDE) - Choose one
 - **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
 - **[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download):** A Python-focused IDE designed for efficient coding and debugging.
 
-### 2.6. Managing Environments and Packages with Miniconda
+### 2.3. Managing Environments and Packages with Miniconda
 Miniconda is a lightweight tool for managing Python environments and packages efficiently.
 
-#### 2.6.1. Installing Miniconda
+#### 2.3.1. Installing Miniconda
 Follow the quickstart guide to install Miniconda: [Miniconda Installation Guide](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
 
-#### 2.6.2. Package Management Examples
+#### 2.3.2. Package Management Examples
 - **Search for a package:**
     ```bash
     conda search scipy
@@ -54,7 +49,7 @@ Follow the quickstart guide to install Miniconda: [Miniconda Installation Guide]
     conda remove scipy
     ```
 
-#### 2.6.3. Environment Management Examples
+#### 2.3.3. Environment Management Examples
 Conda environments allow you to maintain isolated setups with specific Python versions and packages. These environments can coexist, and you can easily switch between them. The active environment is displayed as a prefix in your terminal prompt (e.g., `(base)`).
 
 - **Create a new environment:**
@@ -78,13 +73,14 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     conda env remove --name myenv
     ```
 
-## 3. Version Control with Git (Optional)
+
+### 2.4. Version Control with Git (Optional)
 Git is a powerful version control system (VCS) that allows developers to track code changes, collaborate effectively, and manage project versions. Most Linux distributions include Git by default. If not, you can install it using:
 ```bash
 sudo aptitude install git
 ```
 
-### 3.1. Connecting Git to GitHub
+#### 2.4.1. Connecting Git to GitHub
 
 1. **Set up your identity:**
     ```bash
@@ -102,15 +98,15 @@ sudo aptitude install git
     git config --global credential.helper store
     ```
 
-### 3.2. Using a GitHub Personal Access Token
+#### 2.4.2. Using a GitHub Personal Access Token
 When pushing changes to GitHub, you will need a Personal Access Token instead of a password. Tokens are displayed only once during creation. If credentials are stored, the token can be found in the `~/.git-credentials` file. Learn more about creating a token here: [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
-### 3.3. Helpful Resources
+#### 2.4.3. Helpful Resources
 - **[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):** A quick reference guide for Git commands.
 - **[Git Video Tutorial](https://youtu.be/8JJ101D3knE?si=VtNf4BaDNWxfqfB6):** A beginner-friendly video to learn Git in one hour.
 - **[Oh Shit Git](https://ohshitgit.com/):** A resource to help you recover from common Git mistakes.
 
-### 3.4. Commonly Used Git Commands
+#### 2.4.4. Commonly Used Git Commands
 - Clone a repository: 
   ```bash
   git clone [url]
@@ -160,20 +156,21 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   git commit -a -m "[commit message]"
   ```
 
-## 4. Introduction to Machine Learning
+## Introduction to Machine Learning
 
-## 5. Introduction to Scikit
+## Introduction to Scikit
 
-## 6. Mini projects
+## Mini projects
 
-### 6.1. Regression Example
+### Regression Example
 
-### 6.2. Classification Example
+### Classification Example
 
-### 6.3. Neural Networks Example
+### Neural Networks Example
 
-## 7. Plotting and Presenting
+## Plotting and Presenting
 
-### 7.1. Pandas, Matplotlib and Seaborn
+### Pandas, Matplotlib and Seaborn
 
-### 7.2. Jupyter Lab Notebook
+### Jupyter Lab Notebook
+
