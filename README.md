@@ -95,15 +95,29 @@ Save credential permanently:
 
 [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic):
 
-GitHub token is only presented one time at the creation. If a workstation is set top store the credential, the token can be found in `~/.git-credentials` file.
+GitHub token is only presented one time at the creation. You will need to use this token in place of password when you do "push". If a workstation is set top store the credential, the token can be found in `~/.git-credentials` file.
 
-Git Cheatsheet:
+[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):
 
 Git Video Tutorial:
+[Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE?si=VtNf4BaDNWxfqfB6)
 
-Git moment - now you know why you need git:
+Git Moment - Panic Attack?! Now you know why you need git:
 [Oh Shit Git](https://ohshitgit.com/)
 
+Git commands I use daily:
+* `git clone [url]`: Clone a repository from GitHub
+* `git pull`: Pull from remote repository
+* `git push`: Push to remote repository 
+* `git push --set-upstream origin [branchname]`: Push a new branch to remote repository
+* `git status`: Check git status
+* `git add`: Add new files/folders to track
+* `git checkout [branchname]`: switch to a branch
+* `git checkout -b [branchname]`: Create a new branch
+* `git branch -v`: List branches
+* `git branch -d [branchname]`: Delete a branch
+* `git merge [branchname]`: Merge a branch to current branch
+* `git commit -a -m "[commit message]`: Stage and commit the changes
 
 
 ## Introduction to Machine Learning
