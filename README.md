@@ -74,51 +74,87 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     ```
 
 
-### Manage Version Control (Optional)
-Git is a version control system (VCS) that helps developers track changes in their code, collaborate with others, and manage different versions of a project efficiently. Most Linux distributions come with git. If not, install git with:
-```
+### Version Control with Git (Optional)
+Git is a powerful version control system (VCS) that allows developers to track code changes, collaborate effectively, and manage project versions. Most Linux distributions include Git by default. If not, you can install it using:
+```bash
 sudo aptitude install git
 ```
 
-Connect local git to GitHub:
+#### Connecting Git to GitHub
 
-Set up identity:
-`$ git config --global user.name "<Your Name>"`
-`$ git config --global user.email <your email>`
+1. **Set up your identity:**
+    ```bash
+    git config --global user.name "<Your Name>"
+    git config --global user.email <your email>
+    ```
 
-Save credential for 6 hours:
-`$ git config --global credential.helper 'cache --timeout=21600'`
+2. **Save credentials temporarily (6 hours):**
+    ```bash
+    git config --global credential.helper 'cache --timeout=21600'
+    ```
 
-Save credential permanently:
-`$ git config --global credential.helper store`
+3. **Save credentials permanently:**
+    ```bash
+    git config --global credential.helper store
+    ```
 
+#### Using a GitHub Personal Access Token
+When pushing changes to GitHub, you will need a Personal Access Token instead of a password. Tokens are displayed only once during creation. If credentials are stored, the token can be found in the `~/.git-credentials` file. Learn more about creating a token here: [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
-[GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic):
+#### Helpful Resources
+- **[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):** A quick reference guide for Git commands.
+- **[Git Video Tutorial](https://youtu.be/8JJ101D3knE?si=VtNf4BaDNWxfqfB6):** A beginner-friendly video to learn Git in one hour.
+- **[Oh Shit Git](https://ohshitgit.com/):** A resource to help you recover from common Git mistakes.
 
-GitHub token is only presented one time at the creation. You will need to use this token in place of password when you do "push". If a workstation is set top store the credential, the token can be found in `~/.git-credentials` file.
-
-[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):
-
-Git Video Tutorial:
-[Git Tutorial for Beginners: Learn Git in 1 Hour](https://youtu.be/8JJ101D3knE?si=VtNf4BaDNWxfqfB6)
-
-Git Moment - Panic Attack?! Now you know why you need git:
-[Oh Shit Git](https://ohshitgit.com/)
-
-Git commands I use daily:
-* `git clone [url]`: Clone a repository from GitHub
-* `git pull`: Pull from remote repository
-* `git push`: Push to remote repository 
-* `git push --set-upstream origin [branchname]`: Push a new branch to remote repository
-* `git status`: Check git status
-* `git add`: Add new files/folders to track
-* `git checkout [branchname]`: switch to a branch
-* `git checkout -b [branchname]`: Create a new branch
-* `git branch -v`: List branches
-* `git branch -d [branchname]`: Delete a branch
-* `git merge [branchname]`: Merge a branch to current branch
-* `git commit -a -m "[commit message]`: Stage and commit the changes
-
+#### Commonly Used Git Commands
+- Clone a repository: 
+  ```bash
+  git clone [url]
+  ```
+- Pull changes from a remote repository: 
+  ```bash
+  git pull
+  ```
+- Push changes to a remote repository: 
+  ```bash
+  git push
+  ```
+- Push a new branch to a remote repository: 
+  ```bash
+  git push --set-upstream origin [branchname]
+  ```
+- Check the status of your repository: 
+  ```bash
+  git status
+  ```
+- Add files to staging: 
+  ```bash
+  git add [file/folder]
+  ```
+- Switch to an existing branch: 
+  ```bash
+  git checkout [branchname]
+  ```
+- Create and switch to a new branch: 
+  ```bash
+  git checkout -b [branchname]
+  ```
+- List all branches: 
+  ```bash
+  git branch -v
+  ```
+- Delete a branch: 
+  ```bash
+  git branch -d [branchname]
+  ```
+- Merge a branch into the current branch: 
+  ```bash
+  git merge [branchname]
+  ```
+- Stage and commit changes with a message: 
+  ```bash
+  git commit -a -m "[commit message]"
+  ```
 
 ## Introduction to Machine Learning
 
