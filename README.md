@@ -157,6 +157,13 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   ```
 
 ## Introduction to Machine Learning
+Machine learning models learn patterns from input-output data during training and use those patterns to make predictions on new inputs. While some models may seem like a black box, many offer interpretability through techniques like feature importance and decision trees. Neural networks, often behave more like a black box compared to traditional machine learning algorithms. Here is a nice [interactive web page](https://playground.tensorflow.org/) to show how Neural Networks work.
+
+
+This collection of very short videos for basic concepts of Machine Learning. Source: [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
+- [A Gentle Introduction to Machine Learning](https://youtu.be/Gv9_4yMHFhI?si=4Vc0WXy5EIzLzmUU): This 12-minute video provides a gentle introduction to machine learning, explaining that machine learning is primarily about making predictions and classifications, and emphasizing the crucial role of testing data in evaluating and selecting the best performing methods, regardless of their complexity.
+- [Machine Learning Fundamentals: Cross Validation](https://youtu.be/fSytzGwwBVw?si=SbTnOX8W47tvnlnc): This 6-minute video explains that cross-validation is a method to compare different machine learning techniques and estimate their real-world performance by repeatedly training and testing them on different parts of the data.
+- [Machine Learning Fundamentals: The Confusion Matrix](https://youtu.be/Kdsp6soqA7o?si=cHPREZ2vvvZWE8pF): This 7-minute video on the confusion matrix explains that it is a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
 
 ## Introduction to Scikit
 
