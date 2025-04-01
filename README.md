@@ -157,7 +157,6 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   ```
 
 ## Introduction to Machine Learning
-## Introduction to Machine Learning
 
 Machine learning models learn patterns from input-output data during training and use those patterns to make predictions on new inputs. While some models may seem like a black box, many offer interpretability through techniques like feature importance and decision trees. Neural networks, however, often behave more like a black box compared to traditional machine learning algorithms. 
 
