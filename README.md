@@ -156,13 +156,13 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   git commit -a -m "[commit message]"
   ```
 
-## Introduction to Machine Learning
+## 3. Introduction to Machine Learning
 
 Machine learning models learn patterns from input-output data during training and use those patterns to make predictions on new inputs. While some models may seem like a black box, many offer interpretability through techniques like feature importance and decision trees. Neural networks, however, often behave more like a black box compared to traditional machine learning algorithms. 
 
 For an interactive demonstration of how Neural Networks work, check out this [interactive web page](https://playground.tensorflow.org/).
 
-### Video Resources for Basic Machine Learning Concepts
+### 3.1. Video Resources for Basic Machine Learning Concepts
 Here is a collection of very short videos that explain basic concepts of Machine Learning. Source: [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
 1. **[A Gentle Introduction to Machine Learning](https://youtu.be/Gv9_4yMHFhI?si=4Vc0WXy5EIzLzmUU)**  
@@ -176,6 +176,14 @@ Here is a collection of very short videos that explain basic concepts of Machine
 3. **[Machine Learning Fundamentals: The Confusion Matrix](https://youtu.be/Kdsp6soqA7o?si=cHPREZ2vvvZWE8pF)**  
     *Duration: 7 minutes*  
     This video introduces the confusion matrix, a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
+
+### 3.2. Book Resources for Machine Learning Geeks and Historians
+
+**[PATTERNS, PREDICTIONS, AND ACTIONS: A Story About Machine Learning](https://arxiv.org/pdf/2102.05242)**  
+This book provides a thorough introduction to machine learning, starting with the basics of prediction and progressing to advanced topics such as deep learning and causal inference. It highlights the importance of datasets and benchmarks in the field, offering a modern perspective on causality and sequential decision-making—areas often overlooked in traditional machine learning courses. Additionally, the authors explore the potential harms and societal implications of machine learning technologies, fostering a deeper understanding of its impact beyond pattern recognition.
+
+This book requires certain Mathematics background to read.
+
 
 ## Introduction to Scikit
 
