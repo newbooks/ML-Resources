@@ -2,19 +2,24 @@
 
 In this guide, I have curated a selection of resources to assist beginners in getting started with Python-based AI projects.
 
-## AI Tools for Productivity (Recommended)
+## 1. AI Tools for Productivity (Recommended)
 - **[NotebookLM](https://notebooklm.google/):** Leverage AI to summarize sources like web links, research papers, videos, and audio content. It also enables you to ask questions and take notes effectively.
 - **[GitHub](https://github.com/):** Manage your code repositories, utilize AI-powered coding assistance, and showcase your coding expertise for career growth.
 - **[ChatGPT](https://chatgpt.com/):** Get answers to general queries and enhance your search results with AI-driven insights.
 
-## Setting Up Python Programming Environment
+## 2. Setting Up Python Programming Environment
 A Python programming environment typically consists of the following components:
 
-- **Linux-like Environment:** A terminal-based setup or tools that emulate a Linux environment for seamless development.
-- **Integrated Development Environment (IDE):** Tools like PyCharm, VS Code, or Jupyter Notebook to write, debug, and manage your code efficiently.
-- **Packages and Modules:** Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
+### 2.1. Linux-like Environment
+A terminal-based setup or tools that emulate a Linux environment for seamless development.
 
-### Windows - WSL (Only applicable to Windows users)
+### 2.2. Integrated Development Environment (IDE)
+Tools like PyCharm, VS Code, or Jupyter Notebook to write, debug, and manage your code efficiently.
+
+### 2.3. Packages and Modules
+Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
+
+### 2.4. Windows - WSL (Only applicable to Windows users)
 While Linux and macOS come with a built-in Linux-like environment, Windows users need to install the Windows Subsystem for Linux (WSL) to access a Linux terminal. You can find the installation guide at [Microsoft Learn - Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
@@ -25,17 +30,17 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 4. After restarting, search for **"Ubuntu"** in the Windows Start Menu to launch the WSL Ubuntu app.
 5. On the first launch, WSL will take some time to initialize. You will then be prompted to set up a username and password for the first user.
 
-### Integrated Development Environment (IDE) - Choose one
+### 2.5. Integrated Development Environment (IDE) - Choose one
 - **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
 - **[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download):** A Python-focused IDE designed for efficient coding and debugging.
 
-### Managing Environments and Packages with Miniconda
+### 2.6. Managing Environments and Packages with Miniconda
 Miniconda is a lightweight tool for managing Python environments and packages efficiently.
 
-#### Installing Miniconda
+#### 2.6.1. Installing Miniconda
 Follow the quickstart guide to install Miniconda: [Miniconda Installation Guide](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
 
-#### Package Management Examples
+#### 2.6.2. Package Management Examples
 - **Search for a package:**
     ```bash
     conda search scipy
@@ -49,7 +54,7 @@ Follow the quickstart guide to install Miniconda: [Miniconda Installation Guide]
     conda remove scipy
     ```
 
-#### Environment Management Examples
+#### 2.6.3. Environment Management Examples
 Conda environments allow you to maintain isolated setups with specific Python versions and packages. These environments can coexist, and you can easily switch between them. The active environment is displayed as a prefix in your terminal prompt (e.g., `(base)`).
 
 - **Create a new environment:**
@@ -73,14 +78,13 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     conda env remove --name myenv
     ```
 
-
-### Version Control with Git (Optional)
+## 3. Version Control with Git (Optional)
 Git is a powerful version control system (VCS) that allows developers to track code changes, collaborate effectively, and manage project versions. Most Linux distributions include Git by default. If not, you can install it using:
 ```bash
 sudo aptitude install git
 ```
 
-#### Connecting Git to GitHub
+### 3.1. Connecting Git to GitHub
 
 1. **Set up your identity:**
     ```bash
@@ -98,15 +102,15 @@ sudo aptitude install git
     git config --global credential.helper store
     ```
 
-#### Using a GitHub Personal Access Token
+### 3.2. Using a GitHub Personal Access Token
 When pushing changes to GitHub, you will need a Personal Access Token instead of a password. Tokens are displayed only once during creation. If credentials are stored, the token can be found in the `~/.git-credentials` file. Learn more about creating a token here: [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
 
-#### Helpful Resources
+### 3.3. Helpful Resources
 - **[Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):** A quick reference guide for Git commands.
 - **[Git Video Tutorial](https://youtu.be/8JJ101D3knE?si=VtNf4BaDNWxfqfB6):** A beginner-friendly video to learn Git in one hour.
 - **[Oh Shit Git](https://ohshitgit.com/):** A resource to help you recover from common Git mistakes.
 
-#### Commonly Used Git Commands
+### 3.4. Commonly Used Git Commands
 - Clone a repository: 
   ```bash
   git clone [url]
@@ -156,21 +160,20 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   git commit -a -m "[commit message]"
   ```
 
-## Introduction to Machine Learning
+## 4. Introduction to Machine Learning
 
-## Introduction to Scikit
+## 5. Introduction to Scikit
 
-## Mini projects
+## 6. Mini projects
 
-### Regression Example
+### 6.1. Regression Example
 
-### Classification Example
+### 6.2. Classification Example
 
-### Neural Networks Example
+### 6.3. Neural Networks Example
 
-## Plotting and Presenting
+## 7. Plotting and Presenting
 
-### Pandas, Matplotlib and Seaborn
+### 7.1. Pandas, Matplotlib and Seaborn
 
-### Jupyter Lab Notebook
-
+### 7.2. Jupyter Lab Notebook
