@@ -202,12 +202,13 @@ Here is a collection of very short videos that explain basic concepts of Machine
     </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians
-
+<details>
+<summary>Click here to expand</summary>
 **[PATTERNS, PREDICTIONS, AND ACTIONS: A Story About Machine Learning](https://arxiv.org/pdf/2102.05242)**  
 This book provides a thorough introduction to machine learning, starting with the basics of prediction and progressing to advanced topics such as deep learning and causal inference. It highlights the importance of datasets and benchmarks in the field, offering a modern perspective on causality and sequential decision-making—areas often overlooked in traditional machine learning courses. Additionally, the authors explore the potential harms and societal implications of machine learning technologies, fostering a deeper understanding of its impact beyond pattern recognition.
 
 This book requires certain Mathematics background to read.
-
+</details>
 
 ## Introduction to Scikit
 
