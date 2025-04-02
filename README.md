@@ -199,7 +199,14 @@ Here is a collection of very short videos that explain basic concepts of Machine
     - **Sensitivity:** The proportion of actual positives that are correctly identified.
     - **Specificity:** The proportion of actual negatives that are correctly identified.
     - **Precision:** The proportion of predicted positives that are correctly identified.
-    </details>
+6. **[Machine Learning Fundamentals: Bias and Variance](https://youtu.be/EuBBz3bI-aA?si=TgLSCDKtwAndVyQl)**  
+    *Duration: 6 minutes*  
+    This video explains the fundamental machine learning concepts of bias, the inability of a model to capture the true relationship in data, and variance, the sensitivity of a model's performance to different datasets, using the example of fitting lines to predict mouse height from weight.
+7. **[ROC and AUC, Clearly Explained!](https://youtu.be/4jRBRDbJemM?si=6ssJLNSbJqmXvkq3)**  
+    *Duration: 16 minutes*  
+    This video explains that ROC graphs visualize a classification model's performance across different classification thresholds by plotting the true positive rate against the false positive rate, while the AUC provides a single numerical value representing the overall performance of the model.
+</details>
+
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
