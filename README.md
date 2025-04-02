@@ -205,7 +205,16 @@ Here is a collection of very short videos that explain basic concepts of Machine
 7. **[ROC and AUC, Clearly Explained!](https://youtu.be/4jRBRDbJemM?si=6ssJLNSbJqmXvkq3)**  
     *Duration: 16 minutes*  
     This video explains that ROC graphs visualize a classification model's performance across different classification thresholds by plotting the true positive rate against the false positive rate, while the AUC provides a single numerical value representing the overall performance of the model.
-</details>
+8. **[Entropy (for data science) Clearly Explained!!!](https://youtu.be/YtebGVx-Fxw?si=I4ffKZnbdgk9Hjk_)**  
+    *Duration: 16 minutes*  
+    This video explains entropy in data science as the expected value of surprise. It quantifies similarities and differences by defining surprise as the logarithm of the inverse of probability.
+9. **[Mutual Information, Clearly Explained!!!](https://youtu.be/eJIp_mgVLwE?si=XxufG7nZUTpjjpKT)**  
+    *Duration: 16 minutes*  
+    This video describes mutual information as a numerical measure that evaluates the relationship between two variables by analyzing their joint and individual probabilities. Mutual Information measures any dependency (including non-linear relationships), while Correlation only measures linear or monotonic relationships.
+10. **[The Main Ideas of Fitting a Line to Data (The Main Ideas of Least Squares and Linear Regression.)](https://youtu.be/PaFPbb66DxQ?si=5DPSiUmcS8PjkI_N)**  
+    *Duration: 9 minutes*  
+    This video explains linear regression, also referred to as least squares, as a method to find the best-fitting line for a dataset by minimizing the total of the squared vertical distances between the data points and the line.
+    </details>
 
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
