@@ -177,7 +177,7 @@ Here is a collection of very short videos that explain basic concepts of Machine
     *Duration: 7 minutes*  
     This video introduces the confusion matrix, a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
 
-### 3.2. Book Resources for Machine Learning Geeks and Historians
+### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 
 **[PATTERNS, PREDICTIONS, AND ACTIONS: A Story About Machine Learning](https://arxiv.org/pdf/2102.05242)**  
 This book provides a thorough introduction to machine learning, starting with the basics of prediction and progressing to advanced topics such as deep learning and causal inference. It highlights the importance of datasets and benchmarks in the field, offering a modern perspective on causality and sequential decision-making—areas often overlooked in traditional machine learning courses. Additionally, the authors explore the potential harms and societal implications of machine learning technologies, fostering a deeper understanding of its impact beyond pattern recognition.
