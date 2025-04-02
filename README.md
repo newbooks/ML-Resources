@@ -15,6 +15,8 @@ A Python programming environment typically consists of the following components:
 - **Packages and Modules:** Libraries and frameworks such as NumPy, Pandas, and Matplotlib to extend Python's functionality for machine learning and data analysis.
 
 ### 2.1. Windows - WSL (Only applicable to Windows users)
+<details>
+<summary>Click here to expand</summary>
 While Linux and macOS come with a built-in Linux-like environment, Windows users need to install the Windows Subsystem for Linux (WSL) to access a Linux terminal. You can find the installation guide at [Microsoft Learn - Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
@@ -24,12 +26,18 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 3. Once the installation completes, restart your computer.
 4. After restarting, search for **"Ubuntu"** in the Windows Start Menu to launch the WSL Ubuntu app.
 5. On the first launch, WSL will take some time to initialize. You will then be prompted to set up a username and password for the first user.
+</details>
 
 ### 2.2. Integrated Development Environment (IDE) - Choose one
+<details>
+<summary>Click here to expand</summary>
 - **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
 - **[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download):** A Python-focused IDE designed for efficient coding and debugging.
+</details>
 
 ### 2.3. Managing Environments and Packages with Miniconda
+<details>
+<summary>Click here to expand</summary>
 Miniconda is a lightweight tool for managing Python environments and packages efficiently.
 
 #### 2.3.1. Installing Miniconda
@@ -72,9 +80,11 @@ Conda environments allow you to maintain isolated setups with specific Python ve
     ```bash
     conda env remove --name myenv
     ```
-
+</details>
 
 ### 2.4. Version Control with Git (Optional)
+<details>
+<summary>Click here to expand</summary>
 Git is a powerful version control system (VCS) that allows developers to track code changes, collaborate effectively, and manage project versions. Most Linux distributions include Git by default. If not, you can install it using:
 ```bash
 sudo aptitude install git
@@ -155,6 +165,7 @@ When pushing changes to GitHub, you will need a Personal Access Token instead of
   ```bash
   git commit -a -m "[commit message]"
   ```
+</details>
 
 ## 3. Introduction to Machine Learning
 
@@ -163,6 +174,8 @@ Machine learning models learn patterns from input-output data during training an
 For an interactive demonstration of how Neural Networks work, check out this [interactive web page](https://playground.tensorflow.org/).
 
 ### 3.1. Video Resources for Basic Machine Learning Concepts
+<details>
+<summary>Click here to expand</summary>
 Here is a collection of very short videos that explain basic concepts of Machine Learning. Source: [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
 1. **[A Gentle Introduction to Machine Learning](https://youtu.be/Gv9_4yMHFhI?si=4Vc0WXy5EIzLzmUU)**  
@@ -176,14 +189,26 @@ Here is a collection of very short videos that explain basic concepts of Machine
 3. **[Machine Learning Fundamentals: The Confusion Matrix](https://youtu.be/Kdsp6soqA7o?si=cHPREZ2vvvZWE8pF)**  
     *Duration: 7 minutes*  
     This video introduces the confusion matrix, a fundamental tool in machine learning that summarizes the performance of a classification algorithm by showing the counts of correct and incorrect predictions for each class.
+4. **[Machine Learning Fundamentals: Sensitivity and Specificity](https://youtu.be/vP06aMoz4v8?si=FIgghaSUcheQZySW)**  
+    *Duration: 11 minutes*    
+    This video demonstrates how to compute and understand sensitivity, the proportion of true positive cases correctly identified, and specificity, the proportion of true negative cases correctly identified. It uses confusion matrices with multiple categories to assess the performance of machine learning models.
+5. **[The Sensitivity, Specificity, Precision, Recall Sing-a-Long!!!](https://youtu.be/PWvfrTgaPBI?si=Da5HjoP68kXv1D1t)**  
+    *Duration: 1 minute*  
+    This video revisits the following key metrics in machine learning:
+
+    - **Sensitivity:** The proportion of actual positives that are correctly identified.
+    - **Specificity:** The proportion of actual negatives that are correctly identified.
+    - **Precision:** The proportion of predicted positives that are correctly identified.
+    </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
-
+<details>
+<summary>Click here to expand</summary>
 **[PATTERNS, PREDICTIONS, AND ACTIONS: A Story About Machine Learning](https://arxiv.org/pdf/2102.05242)**  
 This book provides a thorough introduction to machine learning, starting with the basics of prediction and progressing to advanced topics such as deep learning and causal inference. It highlights the importance of datasets and benchmarks in the field, offering a modern perspective on causality and sequential decision-making—areas often overlooked in traditional machine learning courses. Additionally, the authors explore the potential harms and societal implications of machine learning technologies, fostering a deeper understanding of its impact beyond pattern recognition.
 
 This book requires certain Mathematics background to read.
-
+</details>
 
 ## Introduction to Scikit
 
