@@ -219,10 +219,12 @@ Here is a collection of very short videos that explain basic concepts of Machine
     This video explains how linear regression applies the least squares method to fit a line (or a plane in higher dimensions) to the data. It also discusses how to measure the fit's strength using R-squared and evaluates the statistical significance of R-squared through a p-value derived from the F-statistic.
 12. **[Multiple Regression, Clearly Explained!!!](https://youtu.be/zITIFTsivN8?si=qTrRwv0kBz0Vr_oq)**  
     *Duration: 5 minutes*  
-        This video explains multiple regression as an extension of simple linear regression. It models a dependent variable using multiple independent variables by fitting a plane or a higher-dimensional surface to the data. The method also evaluates the impact of additional variables by comparing models with and without them using R-squared values and p-values.
+    This video explains multiple regression as an extension of simple linear regression. It models a dependent variable using multiple independent variables by fitting a plane or a higher-dimensional surface to the data. The method also evaluates the impact of additional variables by comparing models with and without them using R-squared values and p-values.
+13. **[Using Linear Models for t-tests and ANOVA, Clearly Explained!!!](https://youtu.be/NF5_btOaCig?si=NXSKr5hX9_u4Tliz)  
+    *Duration: 11 minutes*  
+    This video explains how the principles of linear regression, especially the use of a design matrix, can be extended to conduct t-tests and ANOVA. It demonstrates how to fit means to various groups and compute p-values using an F-statistic based on the sum of squared residuals.
 
-
-</details>
+    </details>
 
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
@@ -235,15 +237,27 @@ This book provides a thorough introduction to machine learning, starting with th
 This book requires certain Mathematics background to read.
 </details>
 
-## Introduction to Scikit
+## 4. Introduction to Scikit-learn
+Scikit-learn is a widely-used Python library for machine learning, offering efficient and user-friendly tools for data analysis and modeling. Built on top of NumPy, SciPy, and Matplotlib, it supports a variety of algorithms for tasks such as classification, regression, clustering, and dimensionality reduction.
 
-## Mini projects
+With its intuitive API, scikit-learn makes it easy to build and evaluate machine learning models in just a few lines of code. For instance, training a decision tree classifier can be done as follows:
 
-### Regression Example
+```python
+from sklearn.tree import DecisionTreeClassifier  
+model = DecisionTreeClassifier()  
+model.fit(X_train, y_train)  
+predictions = model.predict(X_test)
+```
 
-### Classification Example
+Scikit-learn is highly regarded in both academic and professional settings, making it an excellent choice for anyone looking to dive into machine learning. If you have a basic understanding of Python and want to tackle real-world data challenges, scikit-learn is a fantastic starting point!
 
-### Neural Networks Example
+### 4.1. Mini projects
+
+### 4.2. Regression Example
+
+### 4.3. Classification Example
+
+### 4.4. Neural Networks Example
 
 ## Plotting and Presenting
 
