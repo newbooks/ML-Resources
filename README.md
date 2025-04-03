@@ -214,7 +214,15 @@ Here is a collection of very short videos that explain basic concepts of Machine
 10. **[The Main Ideas of Fitting a Line to Data (The Main Ideas of Least Squares and Linear Regression.)](https://youtu.be/PaFPbb66DxQ?si=5DPSiUmcS8PjkI_N)**  
     *Duration: 9 minutes*  
     This video explains linear regression, also referred to as least squares, as a method to find the best-fitting line for a dataset by minimizing the total of the squared vertical distances between the data points and the line.
-    </details>
+11. **[Linear Regression, Clearly Explained!!!](https://youtu.be/nk2CQITm_eo?si=2f7Gaf2Vano72dz0)**  
+    *Duration: 27 minutes*  
+    This video explains how linear regression applies the least squares method to fit a line (or a plane in higher dimensions) to the data. It also discusses how to measure the fit's strength using R-squared and evaluates the statistical significance of R-squared through a p-value derived from the F-statistic.
+12. **[Multiple Regression, Clearly Explained!!!](https://youtu.be/zITIFTsivN8?si=qTrRwv0kBz0Vr_oq)**  
+    *Duration: 5 minutes*  
+        This video explains multiple regression as an extension of simple linear regression. It models a dependent variable using multiple independent variables by fitting a plane or a higher-dimensional surface to the data. The method also evaluates the impact of additional variables by comparing models with and without them using R-squared values and p-values.
+
+
+</details>
 
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
