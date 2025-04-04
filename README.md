@@ -220,10 +220,15 @@ Here is a collection of very short videos that explain basic concepts of Machine
 12. **[Multiple Regression, Clearly Explained!!!](https://youtu.be/zITIFTsivN8?si=qTrRwv0kBz0Vr_oq)**  
     *Duration: 5 minutes*  
     This video explains multiple regression as an extension of simple linear regression. It models a dependent variable using multiple independent variables by fitting a plane or a higher-dimensional surface to the data. The method also evaluates the impact of additional variables by comparing models with and without them using R-squared values and p-values.
-13. **[Using Linear Models for t-tests and ANOVA, Clearly Explained!!!](https://youtu.be/NF5_btOaCig?si=NXSKr5hX9_u4Tliz)  
+13. **[Using Linear Models for t-tests and ANOVA, Clearly Explained!!!](https://youtu.be/NF5_btOaCig?si=NXSKr5hX9_u4Tliz)**  
     *Duration: 11 minutes*  
     This video explains how the principles of linear regression, especially the use of a design matrix, can be extended to conduct t-tests and ANOVA. It demonstrates how to fit means to various groups and compute p-values using an F-statistic based on the sum of squared residuals.
-
+14. **[Odds and Log(Odds), Clearly Explained!!!](https://youtu.be/ARfXDSkQf1Y?si=GcahliJdczX7cu-d)**  
+    *Duration: 11 minutes*  
+    Odds represent the ratio of the likelihood of an event happening to the likelihood of it not happening. The logarithm of the odds transforms this ratio into a scale centered around zero, making it more interpretable and useful in statistical models like logistic regression.
+15. **[Odds Ratios and Log(Odds Ratios), Clearly Explained!!!](https://youtu.be/8nm0G-1uJzA?si=h6S62AHf1oNQfc7X)**  
+    *Duration: 16 minutes*  
+    This video explains odds ratios as a measure of association between two events, calculated as the ratio of their odds. The logarithm of the odds ratio offers a symmetric scale, and its statistical significance can be assessed using tests such as Fisher's exact test, chi-square test, or Wald test.
     </details>
 
 
