@@ -229,8 +229,14 @@ Here is a collection of very short videos that explain basic concepts of Machine
 15. **[Odds Ratios and Log(Odds Ratios), Clearly Explained!!!](https://youtu.be/8nm0G-1uJzA?si=h6S62AHf1oNQfc7X)**  
     *Duration: 16 minutes*  
     This video explains odds ratios as a measure of association between two events, calculated as the ratio of their odds. The logarithm of the odds ratio offers a symmetric scale, and its statistical significance can be assessed using tests such as Fisher's exact test, chi-square test, or Wald test.
-    </details>
+16. **[StatQuest: Logistic Regression](https://youtu.be/yIYKR4sgzI8?si=fxMSQVADi3XHbPAr)**  
+    *Duration: 8 minutes*  
+    This video introduces logistic regression, a machine learning method akin to linear regression, designed to estimate the probability of a binary outcome (e.g., true or false). It employs an s-shaped logistic function and can handle both continuous and categorical data for classification tasks.
+17. **[Logistic Regression Details Pt1: Coefficients](https://youtu.be/vN5cNN2-HWE?si=fo9ZSAEeRSkAF6e_)**  
+    *Duration: 19 minutes*  
+    This video explains logistic regression coefficients, which predict the log odds of a binary outcome. These coefficients indicate the change in log odds for a one-unit increase in a continuous predictor or the log odds ratio for a categorical predictor. Their statistical significance is evaluated using standard errors and Z-values (Wald's test).
 
+</details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
