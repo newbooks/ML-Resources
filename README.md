@@ -241,7 +241,9 @@ Here is a collection of very short videos that explain basic concepts of Machine
 19. **[Logistic Regression Details Pt 3: R-squared and p-value](https://youtu.be/xxFYro8QuXA?si=wy81TIDYrqVMZK-8)**  
     *Duration: 15 minutes*  
     This video discusses the use of R-squared and p-values to evaluate the fit and significance of logistic regression models. It highlights the complexity of calculating R-squared for logistic regression, as there is no universally accepted method. The video focuses on McFadden's pseudo R-squared, which is derived from the log-likelihoods of the fitted model and the intercept-only model. Additionally, it explains the use of a chi-squared test based on the difference in log-likelihoods to compute the p-value.
-
+20. **[Saturated Models and Deviance](https://youtu.be/9T0wlKdew6I?si=S8wq80dgSUugP2Lb)**
+    *Duration: 18 minutes*
+    This video clarifies the concept of the saturated model—one that includes a parameter for every data point—and explains how it sets an upper limit for the log-likelihood-based R-squared. It also explores the model's relationship to deviance statistics (residual and null deviance) used in hypothesis testing, while pointing out that it has no practical relevance in logistic regression.
 </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
