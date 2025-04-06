@@ -235,6 +235,12 @@ Here is a collection of very short videos that explain basic concepts of Machine
 17. **[Logistic Regression Details Pt1: Coefficients](https://youtu.be/vN5cNN2-HWE?si=fo9ZSAEeRSkAF6e_)**  
     *Duration: 19 minutes*  
     This video explains logistic regression coefficients, which predict the log odds of a binary outcome. These coefficients indicate the change in log odds for a one-unit increase in a continuous predictor or the log odds ratio for a categorical predictor. Their statistical significance is evaluated using standard errors and Z-values (Wald's test).
+18. **[Logistic Regression Details Pt 2: Maximum Likelihood](https://youtu.be/BfKanl1aSG0?si=XaTLACfNe_Basj9o)**  
+    *Duration: 10 minutes*  
+    This video explains how logistic regression fits curves to data by using a method called maximum likelihood, which identifies the curve that best predicts the observed binary outcomes. Unlike least squares, this approach is necessary due to the transformed y-axis and the presence of infinite residuals.
+19. **[Logistic Regression Details Pt 3: R-squared and p-value](https://youtu.be/xxFYro8QuXA?si=wy81TIDYrqVMZK-8)**  
+    *Duration: 15 minutes*  
+    This video discusses the use of R-squared and p-values to evaluate the fit and significance of logistic regression models. It highlights the complexity of calculating R-squared for logistic regression, as there is no universally accepted method. The video focuses on McFadden's pseudo R-squared, which is derived from the log-likelihoods of the fitted model and the intercept-only model. Additionally, it explains the use of a chi-squared test based on the difference in log-likelihoods to compute the p-value.
 
 </details>
 
