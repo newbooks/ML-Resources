@@ -244,6 +244,10 @@ Here is a collection of very short videos that explain basic concepts of Machine
 20. **[Saturated Models and Deviance](https://youtu.be/9T0wlKdew6I?si=S8wq80dgSUugP2Lb)**
     *Duration: 18 minutes*
     This video clarifies the concept of the saturated model—one that includes a parameter for every data point—and explains how it sets an upper limit for the log-likelihood-based R-squared. It also explores the model's relationship to deviance statistics (residual and null deviance) used in hypothesis testing, while pointing out that it has no practical relevance in logistic regression.
+21. **[Deviance Residuals](https://youtu.be/JC56jS2gVUE?si=c5P7922fCyrmhTtP)**  
+    *Duration: 6 minutes*  
+    Deviance residuals indicate the square root of each data point's contribution to the total residual deviance and are used to detect outliers.
+
 </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
