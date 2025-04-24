@@ -247,6 +247,9 @@ Here is a collection of very short videos that explain basic concepts of Machine
 21. **[Deviance Residuals](https://youtu.be/JC56jS2gVUE?si=c5P7922fCyrmhTtP)**  
     *Duration: 6 minutes*  
     Deviance residuals indicate the square root of each data point's contribution to the total residual deviance and are used to detect outliers.
+22. **[Regularization Part 1: Ridge (L2) Regression](https://youtu.be/Q81RR3yKn30?si=bNu8I3XkUC2Gbanx)**  
+    *Duration: 20 minutes*  
+    This video explains Ridge regression, a regularization method that modifies traditional least squares by adding a penalty term. This approach reduces variance and enhances prediction accuracy, especially in cases with small datasets or limited features, by introducing slight bias and shrinking parameter estimates.
 
 </details>
 
