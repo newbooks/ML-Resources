@@ -253,7 +253,14 @@ Here is a collection of very short videos that explain basic concepts of Machine
 24. **[StatQuest: PCA main ideas in only 5 minutes!!!](https://youtu.be/HMOI_lkzW08?si=f1ShHAppnstUybe8)**  
     *Duration: 6 minutes*  
     This video provides a concise explanation of Principal Component Analysis (PCA), a technique for reducing the dimensionality of multi-variable datasets. It demonstrates how PCA transforms data into a 2D plot, with axes representing the most significant principal components, to reveal patterns and clusters.
-    </details>
+25. **[StatQuest: PCA - Practical Tips](https://youtu.be/oRvgq966yZg?si=jN6JfKWCQTlw4Vlz)**  
+    *Duration: 8 minutes*  
+    This video offers practical advice for conducting Principal Component Analysis (PCA), highlighting the importance of scaling and centering data for reliable outcomes. It also explains how the number of samples and variables influences the maximum possible principal components.
+26. **[StatQuest: PCA in Python](https://youtu.be/Lsue2gEM9D0?si=xlMgoos-7vjWoipy)**  
+    *Duration: 11 minutes*  
+    This video provides a step-by-step guide to performing Principal Component Analysis (PCA) in Python. It demonstrates key processes such as data preparation (scaling and centering), computing principal components, visualizing results using scree and scatter plots, and analyzing loading scores with libraries like scikit-learn and matplotlib.
+
+</details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
@@ -283,9 +290,11 @@ Scikit-learn is highly regarded in both academic and professional settings, maki
 
 ### 4.2. Regression Example
 
-### 4.3. Classification Example
+### 4.3. PCA Analysis
 
-### 4.4. Neural Networks Example
+### 4.4. Classification Example
+
+### 4.5. Neural Networks Example
 
 ## Plotting and Presenting
 
