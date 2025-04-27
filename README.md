@@ -247,18 +247,21 @@ Here is a collection of very short videos that explain basic concepts of Machine
 21. **[Deviance Residuals](https://youtu.be/JC56jS2gVUE?si=c5P7922fCyrmhTtP)**  
     *Duration: 6 minutes*  
     Deviance residuals indicate the square root of each data point's contribution to the total residual deviance and are used to detect outliers.
-23. **[StatQuest: Principal Component Analysis (PCA), Step-by-Step](https://youtu.be/FgakZw6K1QQ?si=EqIIaIyjPv0REEft)**  
+23. **[Principal Component Analysis (PCA), Step-by-Step](https://youtu.be/FgakZw6K1QQ?si=EqIIaIyjPv0REEft)**  
     *Duration: 21 minutes*  
     This video provides a detailed explanation of Principal Component Analysis (PCA), a dimensionality reduction technique that identifies principal components—linear combinations of variables—that capture the maximum variance in the data. It also covers key concepts such as eigenvalues and loading scores, enabling visualization and identification of significant variables.
 24. **[StatQuest: PCA main ideas in only 5 minutes!!!](https://youtu.be/HMOI_lkzW08?si=f1ShHAppnstUybe8)**  
     *Duration: 6 minutes*  
     This video provides a concise explanation of Principal Component Analysis (PCA), a technique for reducing the dimensionality of multi-variable datasets. It demonstrates how PCA transforms data into a 2D plot, with axes representing the most significant principal components, to reveal patterns and clusters.
-25. **[StatQuest: PCA - Practical Tips](https://youtu.be/oRvgq966yZg?si=jN6JfKWCQTlw4Vlz)**  
+25. **[PCA - Practical Tips](https://youtu.be/oRvgq966yZg?si=jN6JfKWCQTlw4Vlz)**  
     *Duration: 8 minutes*  
     This video offers practical advice for conducting Principal Component Analysis (PCA), highlighting the importance of scaling and centering data for reliable outcomes. It also explains how the number of samples and variables influences the maximum possible principal components.
-26. **[StatQuest: PCA in Python](https://youtu.be/Lsue2gEM9D0?si=xlMgoos-7vjWoipy)**  
+26. **[PCA in Python](https://youtu.be/Lsue2gEM9D0?si=xlMgoos-7vjWoipy)**  
     *Duration: 11 minutes*  
     This video provides a step-by-step guide to performing Principal Component Analysis (PCA) in Python. It demonstrates key processes such as data preparation (scaling and centering), computing principal components, visualizing results using scree and scatter plots, and analyzing loading scores with libraries like scikit-learn and matplotlib.
+27. **[Hierarchical Clustering](https://youtu.be/7xHsRkOdVwo?si=WzWyVVTpPV-7DMm_)**  
+    *Duration: 11 minutes*  
+    This video provides an explanation of hierarchical clustering, a technique commonly used alongside heat maps to organize rows and columns based on similarity. It describes the iterative process of merging the most similar genes or clusters and explores various methods for measuring similarity, such as Euclidean and Manhattan distances. Additionally, it discusses approaches for comparing clusters, including centroid, single linkage, and complete linkage, with the resulting hierarchy visualized through a dendrogram.
 
 </details>
 
