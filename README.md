@@ -262,6 +262,15 @@ Here is a collection of very short videos that explain basic concepts of Machine
 27. **[Hierarchical Clustering](https://youtu.be/7xHsRkOdVwo?si=WzWyVVTpPV-7DMm_)**  
     *Duration: 11 minutes*  
     This video provides an explanation of hierarchical clustering, a technique commonly used alongside heat maps to organize rows and columns based on similarity. It describes the iterative process of merging the most similar genes or clusters and explores various methods for measuring similarity, such as Euclidean and Manhattan distances. Additionally, it discusses approaches for comparing clusters, including centroid, single linkage, and complete linkage, with the resulting hierarchy visualized through a dendrogram.
+28. **[K-means clustering](https://youtu.be/4b5d3muPQmA?si=-_inBEYT5NeUyuSv)**  
+    *Duration: 8 minutes*  
+    This video explains K-means clustering, an iterative algorithm that groups data points by assigning them to the nearest cluster center and updating the centers until convergence. It demonstrates the method using examples like line plots, XY graphs, and heat maps, and discusses how to determine the optimal number of clusters (K) using an elbow plot.
+29. **[K-nearest neighbors, Clearly Explained](https://youtu.be/HVXime0nQeI?si=UgO92xIZjVtv1O-Y)**  
+    *Duration: 5 minutes*  
+    This video provides an overview of the K-nearest neighbors algorithm, a classification technique that predicts the category of a new data point by identifying its K closest neighbors in the training dataset and assigning it the most common category among them.
+30. **[Naive Bayes](https://youtu.be/O2L2Uv9pdDA?si=seI16Wkg4nN8J0gW)**  
+    *Duration: 15 minutes*  
+    This video provides an overview of the multinomial Naive Bayes classifier, showcasing its application in spam message filtering. It explains how the algorithm calculates the likelihood of words appearing in normal and spam messages, combines these with prior probabilities to compute a score for each category, and classifies a new message based on the higher score. The video also highlights the "naive" assumption of treating word order as irrelevant.
 
 </details>
 
