@@ -178,6 +178,13 @@ For an interactive demonstration of how Neural Networks work, check out this [in
 <summary>Click here to expand</summary>
 Here is a collection of very short videos that explain basic concepts of Machine Learning. Source: [StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
+The focuses here are:
+- Basic concepts
+- Regression
+- Principal Component Analysis
+- Clustering
+- Classification
+
 1. **[A Gentle Introduction to Machine Learning](https://youtu.be/Gv9_4yMHFhI?si=4Vc0WXy5EIzLzmUU)**  
     *Duration: 12 minutes*  
     This video provides a gentle introduction to machine learning, explaining that it is primarily about making predictions and classifications. It emphasizes the crucial role of testing data in evaluating and selecting the best-performing methods, regardless of their complexity.
@@ -271,6 +278,9 @@ Here is a collection of very short videos that explain basic concepts of Machine
 30. **[Naive Bayes](https://youtu.be/O2L2Uv9pdDA?si=seI16Wkg4nN8J0gW)**  
     *Duration: 15 minutes*  
     This video provides an overview of the multinomial Naive Bayes classifier, showcasing its application in spam message filtering. It explains how the algorithm calculates the likelihood of words appearing in normal and spam messages, combines these with prior probabilities to compute a score for each category, and classifies a new message based on the higher score. The video also highlights the "naive" assumption of treating word order as irrelevant.
+31. **[Gaussian Naive Bayes](https://youtu.be/H3EjCKtlVog?si=c4PBtcgIAkhZ8kgK)**  
+    *Duration: 9 minutes*  
+    This video provides an overview of Gaussian Naive Bayes, a classification algorithm that models features using Gaussian distributions. It calculates category scores by combining prior probabilities with feature likelihoods, often using logarithms to avoid underflow issues. The method is demonstrated through an example of predicting movie preferences.
 
 </details>
 
