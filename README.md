@@ -286,9 +286,12 @@ The focuses here are:
     This video provides an overview of classification trees, explaining their construction through iterative splits of data based on features that reduce impurity (commonly measured using Gini impurity) until reaching leaf nodes that determine the final category. It also demonstrates how these trees classify new data.  
 33. **[Decision Trees, Part 2 - Feature Selection and Missing Data](https://youtu.be/wpNl-JwwplA?si=W6EE2v8VTnuYaxdx)**  
     *Duration: 5 minutes*  
-    
-</details>
+    This video delves into feature selection in decision trees, highlighting how features are chosen based on their ability to reduce impurity. It also discusses setting thresholds to prevent overfitting and explores strategies for handling missing data, such as imputing with the most frequent value, a correlated feature, the mean or median, or using linear regression to estimate missing values.
+34. **[Regression Trees](https://youtu.be/g9c66TUylZ4?si=hZFY8aLORCHxZ4cQ)**  
+    *Duration: 22 minutes*  
+    This video explains regression trees, a type of decision tree designed for numeric predictions. It details the process of building these trees by iteratively splitting data based on thresholds that minimize the sum of squared residuals. Each leaf node represents the average numeric value of the observations in that group. To prevent overfitting, splitting stops when a node contains fewer than a specified minimum number of observations.
 
+</details>
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
 <summary>Click here to expand</summary>
