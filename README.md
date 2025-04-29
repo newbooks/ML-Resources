@@ -281,7 +281,12 @@ The focuses here are:
 31. **[Gaussian Naive Bayes](https://youtu.be/H3EjCKtlVog?si=c4PBtcgIAkhZ8kgK)**  
     *Duration: 9 minutes*  
     This video provides an overview of Gaussian Naive Bayes, a classification algorithm that models features using Gaussian distributions. It calculates category scores by combining prior probabilities with feature likelihoods, often using logarithms to avoid underflow issues. The method is demonstrated through an example of predicting movie preferences.
-
+32. **[Decision and Classification Trees](https://youtu.be/_L39rN6gz7Y?si=UXKiUgtWLLBfzhu0)**  
+    *Duration 18 minutes*  
+    This video provides an overview of classification trees, explaining their construction through iterative splits of data based on features that reduce impurity (commonly measured using Gini impurity) until reaching leaf nodes that determine the final category. It also demonstrates how these trees classify new data.  
+33. **[Decision Trees, Part 2 - Feature Selection and Missing Data](https://youtu.be/wpNl-JwwplA?si=W6EE2v8VTnuYaxdx)**  
+    *Duration: 5 minutes*  
+    
 </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
