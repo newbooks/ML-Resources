@@ -297,6 +297,7 @@ The focuses here are:
     *Duration: 66 minutes*  
     This video provides a comprehensive walkthrough of building and optimizing a classification tree in Python using scikit-learn. It covers key steps such as importing and preparing data, addressing missing values and categorical data through one-hot encoding, splitting the dataset, constructing an initial tree, and applying cost complexity pruning with cross-validation to develop a refined tree for predicting heart disease.
 </details>
+
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
 <summary>Click here to expand</summary>
