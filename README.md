@@ -290,7 +290,12 @@ The focuses here are:
 34. **[Regression Trees](https://youtu.be/g9c66TUylZ4?si=hZFY8aLORCHxZ4cQ)**  
     *Duration: 22 minutes*  
     This video explains regression trees, a type of decision tree designed for numeric predictions. It details the process of building these trees by iteratively splitting data based on thresholds that minimize the sum of squared residuals. Each leaf node represents the average numeric value of the observations in that group. To prevent overfitting, splitting stops when a node contains fewer than a specified minimum number of observations.
-
+35. **[How to Prune Regression Trees](https://youtu.be/D0efHEJsfHo?si=187pAeYwaoKvbLh0)**  
+    *Duration: 16 minutes*  
+    This video explains cost complexity pruning (also known as weakest link pruning) for regression trees. It demonstrates how to prevent overfitting by calculating a tree's score using the sum of squared residuals combined with a complexity penalty based on the number of leaves. The video also covers using cross-validation to determine the optimal tuning parameter (alpha) that minimizes the sum of squared residuals on test data.
+36. **[Classification Trees in Python from Start to Finish](https://youtu.be/q90UDEgYqeI?si=NSERYgCcdCoFQzAz)**  
+    *Duration: 66 minutes*  
+    This video provides a comprehensive walkthrough of building and optimizing a classification tree in Python using scikit-learn. It covers key steps such as importing and preparing data, addressing missing values and categorical data through one-hot encoding, splitting the dataset, constructing an initial tree, and applying cost complexity pruning with cross-validation to develop a refined tree for predicting heart disease.
 </details>
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
 <details>
