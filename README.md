@@ -236,7 +236,7 @@ The focuses here are:
 15. **[Odds Ratios and Log(Odds Ratios), Clearly Explained!!!](https://youtu.be/8nm0G-1uJzA?si=h6S62AHf1oNQfc7X)**  
     *Duration: 16 minutes*  
     This video explains odds ratios as a measure of association between two events, calculated as the ratio of their odds. The logarithm of the odds ratio offers a symmetric scale, and its statistical significance can be assessed using tests such as Fisher's exact test, chi-square test, or Wald test.
-16. **[StatQuest: Logistic Regression](https://youtu.be/yIYKR4sgzI8?si=fxMSQVADi3XHbPAr)**  
+16. **[Logistic Regression](https://youtu.be/yIYKR4sgzI8?si=fxMSQVADi3XHbPAr)**  
     *Duration: 8 minutes*  
     This video introduces logistic regression, a machine learning method akin to linear regression, designed to estimate the probability of a binary outcome (e.g., true or false). It employs an s-shaped logistic function and can handle both continuous and categorical data for classification tasks.
 17. **[Logistic Regression Details Pt1: Coefficients](https://youtu.be/vN5cNN2-HWE?si=fo9ZSAEeRSkAF6e_)**  
@@ -254,46 +254,46 @@ The focuses here are:
 21. **[Deviance Residuals](https://youtu.be/JC56jS2gVUE?si=c5P7922fCyrmhTtP)**  
     *Duration: 6 minutes*  
     Deviance residuals indicate the square root of each data point's contribution to the total residual deviance and are used to detect outliers.
-23. **[Principal Component Analysis (PCA), Step-by-Step](https://youtu.be/FgakZw6K1QQ?si=EqIIaIyjPv0REEft)**  
+22. **[Principal Component Analysis (PCA), Step-by-Step](https://youtu.be/FgakZw6K1QQ?si=EqIIaIyjPv0REEft)**  
     *Duration: 21 minutes*  
     This video provides a detailed explanation of Principal Component Analysis (PCA), a dimensionality reduction technique that identifies principal components—linear combinations of variables—that capture the maximum variance in the data. It also covers key concepts such as eigenvalues and loading scores, enabling visualization and identification of significant variables.
-24. **[StatQuest: PCA main ideas in only 5 minutes!!!](https://youtu.be/HMOI_lkzW08?si=f1ShHAppnstUybe8)**  
+23. **[StatQuest: PCA main ideas in only 5 minutes!!!](https://youtu.be/HMOI_lkzW08?si=f1ShHAppnstUybe8)**  
     *Duration: 6 minutes*  
     This video provides a concise explanation of Principal Component Analysis (PCA), a technique for reducing the dimensionality of multi-variable datasets. It demonstrates how PCA transforms data into a 2D plot, with axes representing the most significant principal components, to reveal patterns and clusters.
-25. **[PCA - Practical Tips](https://youtu.be/oRvgq966yZg?si=jN6JfKWCQTlw4Vlz)**  
+24. **[PCA - Practical Tips](https://youtu.be/oRvgq966yZg?si=jN6JfKWCQTlw4Vlz)**  
     *Duration: 8 minutes*  
     This video offers practical advice for conducting Principal Component Analysis (PCA), highlighting the importance of scaling and centering data for reliable outcomes. It also explains how the number of samples and variables influences the maximum possible principal components.
-26. **[PCA in Python](https://youtu.be/Lsue2gEM9D0?si=xlMgoos-7vjWoipy)**  
+25. **[PCA in Python](https://youtu.be/Lsue2gEM9D0?si=xlMgoos-7vjWoipy)**  
     *Duration: 11 minutes*  
     This video provides a step-by-step guide to performing Principal Component Analysis (PCA) in Python. It demonstrates key processes such as data preparation (scaling and centering), computing principal components, visualizing results using scree and scatter plots, and analyzing loading scores with libraries like scikit-learn and matplotlib.
-27. **[Hierarchical Clustering](https://youtu.be/7xHsRkOdVwo?si=WzWyVVTpPV-7DMm_)**  
+26. **[Hierarchical Clustering](https://youtu.be/7xHsRkOdVwo?si=WzWyVVTpPV-7DMm_)**  
     *Duration: 11 minutes*  
     This video provides an explanation of hierarchical clustering, a technique commonly used alongside heat maps to organize rows and columns based on similarity. It describes the iterative process of merging the most similar genes or clusters and explores various methods for measuring similarity, such as Euclidean and Manhattan distances. Additionally, it discusses approaches for comparing clusters, including centroid, single linkage, and complete linkage, with the resulting hierarchy visualized through a dendrogram.
-28. **[K-means clustering](https://youtu.be/4b5d3muPQmA?si=-_inBEYT5NeUyuSv)**  
+27. **[K-means clustering](https://youtu.be/4b5d3muPQmA?si=-_inBEYT5NeUyuSv)**  
     *Duration: 8 minutes*  
     This video explains K-means clustering, an iterative algorithm that groups data points by assigning them to the nearest cluster center and updating the centers until convergence. It demonstrates the method using examples like line plots, XY graphs, and heat maps, and discusses how to determine the optimal number of clusters (K) using an elbow plot.
-29. **[K-nearest neighbors, Clearly Explained](https://youtu.be/HVXime0nQeI?si=UgO92xIZjVtv1O-Y)**  
+28. **[K-nearest neighbors, Clearly Explained](https://youtu.be/HVXime0nQeI?si=UgO92xIZjVtv1O-Y)**  
     *Duration: 5 minutes*  
     This video provides an overview of the K-nearest neighbors algorithm, a classification technique that predicts the category of a new data point by identifying its K closest neighbors in the training dataset and assigning it the most common category among them.
-30. **[Naive Bayes](https://youtu.be/O2L2Uv9pdDA?si=seI16Wkg4nN8J0gW)**  
+29. **[Naive Bayes](https://youtu.be/O2L2Uv9pdDA?si=seI16Wkg4nN8J0gW)**  
     *Duration: 15 minutes*  
     This video provides an overview of the multinomial Naive Bayes classifier, showcasing its application in spam message filtering. It explains how the algorithm calculates the likelihood of words appearing in normal and spam messages, combines these with prior probabilities to compute a score for each category, and classifies a new message based on the higher score. The video also highlights the "naive" assumption of treating word order as irrelevant.
-31. **[Gaussian Naive Bayes](https://youtu.be/H3EjCKtlVog?si=c4PBtcgIAkhZ8kgK)**  
+30. **[Gaussian Naive Bayes](https://youtu.be/H3EjCKtlVog?si=c4PBtcgIAkhZ8kgK)**  
     *Duration: 9 minutes*  
     This video provides an overview of Gaussian Naive Bayes, a classification algorithm that models features using Gaussian distributions. It calculates category scores by combining prior probabilities with feature likelihoods, often using logarithms to avoid underflow issues. The method is demonstrated through an example of predicting movie preferences.
-32. **[Decision and Classification Trees](https://youtu.be/_L39rN6gz7Y?si=UXKiUgtWLLBfzhu0)**  
+31. **[Decision and Classification Trees](https://youtu.be/_L39rN6gz7Y?si=UXKiUgtWLLBfzhu0)**  
     *Duration 18 minutes*  
     This video provides an overview of classification trees, explaining their construction through iterative splits of data based on features that reduce impurity (commonly measured using Gini impurity) until reaching leaf nodes that determine the final category. It also demonstrates how these trees classify new data.  
-33. **[Decision Trees, Part 2 - Feature Selection and Missing Data](https://youtu.be/wpNl-JwwplA?si=W6EE2v8VTnuYaxdx)**  
+32. **[Decision Trees, Part 2 - Feature Selection and Missing Data](https://youtu.be/wpNl-JwwplA?si=W6EE2v8VTnuYaxdx)**  
     *Duration: 5 minutes*  
     This video delves into feature selection in decision trees, highlighting how features are chosen based on their ability to reduce impurity. It also discusses setting thresholds to prevent overfitting and explores strategies for handling missing data, such as imputing with the most frequent value, a correlated feature, the mean or median, or using linear regression to estimate missing values.
-34. **[Regression Trees](https://youtu.be/g9c66TUylZ4?si=hZFY8aLORCHxZ4cQ)**  
+33. **[Regression Trees](https://youtu.be/g9c66TUylZ4?si=hZFY8aLORCHxZ4cQ)**  
     *Duration: 22 minutes*  
     This video explains regression trees, a type of decision tree designed for numeric predictions. It details the process of building these trees by iteratively splitting data based on thresholds that minimize the sum of squared residuals. Each leaf node represents the average numeric value of the observations in that group. To prevent overfitting, splitting stops when a node contains fewer than a specified minimum number of observations.
-35. **[How to Prune Regression Trees](https://youtu.be/D0efHEJsfHo?si=187pAeYwaoKvbLh0)**  
+34. **[How to Prune Regression Trees](https://youtu.be/D0efHEJsfHo?si=187pAeYwaoKvbLh0)**  
     *Duration: 16 minutes*  
     This video explains cost complexity pruning (also known as weakest link pruning) for regression trees. It demonstrates how to prevent overfitting by calculating a tree's score using the sum of squared residuals combined with a complexity penalty based on the number of leaves. The video also covers using cross-validation to determine the optimal tuning parameter (alpha) that minimizes the sum of squared residuals on test data.
-36. **[Classification Trees in Python from Start to Finish](https://youtu.be/q90UDEgYqeI?si=NSERYgCcdCoFQzAz)**  
+35. **[Classification Trees in Python from Start to Finish](https://youtu.be/q90UDEgYqeI?si=NSERYgCcdCoFQzAz)**  
     *Duration: 66 minutes*  
     This video provides a comprehensive walkthrough of building and optimizing a classification tree in Python using scikit-learn. It covers key steps such as importing and preparing data, addressing missing values and categorical data through one-hot encoding, splitting the dataset, constructing an initial tree, and applying cost complexity pruning with cross-validation to develop a refined tree for predicting heart disease.
 </details>
