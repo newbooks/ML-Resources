@@ -328,9 +328,11 @@ Scikit-learn is highly regarded in both academic and professional settings, maki
 
 ### 4.3. PCA Analysis
 
-### 4.4. Classification Example
+### 4.4. Clustering
 
-### 4.5. Neural Networks Example
+### 4.5. Classification Example
+
+### 4.6. Neural Networks Example
 
 ## Plotting and Presenting
 
