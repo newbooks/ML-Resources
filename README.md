@@ -322,6 +322,13 @@ predictions = model.predict(X_test)
 
 Scikit-learn is highly regarded in both academic and professional settings, making it an excellent choice for anyone looking to dive into machine learning. If you have a basic understanding of Python and want to tackle real-world data challenges, scikit-learn is a fantastic starting point!
 
+**Install Machine Learning and other modules used by this tutorial:**  
+
+```bash
+
+```
+
+
 ### 4.1. Mini projects
 
 ### 4.2. Regression Example
