@@ -326,7 +326,7 @@ Scikit-learn is highly regarded in both academic and professional settings, maki
 Assuming we manage our Python, packages and programming environment with [miniconda](#23-managing-environments-and-packages-with-miniconda), we can install scikit-learn and its dependency packages with commands:
 
 ```bash
-conda install scikit-learn seaborn
+conda install scikit-learn seaborn jupyterlab
 ```
 
 
@@ -362,9 +362,11 @@ In this project, we will
 
 **Example procedure:**
 
-A step by step interactive implementation is in a Jupyter Notebook.
+- A step by step interactive implementation is in a Jupyter Notebook regression/regression.ipynb 
+- A working python scrip example is in regression/regression.py
 
-A working python scrip example is in regression/
+
+They are self-explanatory.
 
 </details>
 
