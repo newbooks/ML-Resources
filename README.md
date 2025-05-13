@@ -323,15 +323,53 @@ predictions = model.predict(X_test)
 Scikit-learn is highly regarded in both academic and professional settings, making it an excellent choice for anyone looking to dive into machine learning. If you have a basic understanding of Python and want to tackle real-world data challenges, scikit-learn is a fantastic starting point!
 
 **Install Machine Learning and other modules used by this tutorial:**  
+Assuming we manage our Python, packages and programming environment with [miniconda](#23-managing-environments-and-packages-with-miniconda), we can install scikit-learn and its dependency packages with commands:
 
 ```bash
-
+conda install scikit-learn seaborn jupyterlab
 ```
 
 
 ### 4.1. Mini projects
+Below are common applications of machine learning.
 
 ### 4.2. Regression Example
+<details>
+<summary>Click here to expand</summary>
+
+In this project, we will
+1. View the input data  
+   - Display summary statistics.
+   - Visualize key features (e.g., histograms, scatterplots, heatmaps).
+
+2. Data Preprocessing  
+   - Normalize/scale features if necessary.
+   - Split data into training and test sets.
+
+3. Model Training. Find at least two regression models to train, such as:
+   - Linear Regression
+   - Ridge or Lasso Regression
+   - Decision Tree Regressor
+   - Random Forest Regressor
+   - Support Vector Regression (SVR)
+
+4. Model Evaluation
+    - Mean Squared Error (MSE)
+    - Root Mean Squared Error (RMSE)
+    - Mean Absolute Error (MAE)
+
+5. Visualize predictions vs. actual values
+
+**Example procedure:**
+
+- A step by step interactive implementation is in a Jupyter Notebook regression/regression.ipynb 
+- A working python scrip example is in regression/regression.py
+
+
+They are self-explanatory.
+
+</details>
+
 
 ### 4.3. PCA Analysis
 
