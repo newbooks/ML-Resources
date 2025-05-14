@@ -356,7 +356,7 @@ In this project, we will
 4. Model Evaluation
     - Mean Squared Error (MSE)
     - Root Mean Squared Error (RMSE)
-    - Mean Absolute Error (MAE)
+    - R<sup>2</sup>
 
 5. Visualize predictions vs. actual values
 
