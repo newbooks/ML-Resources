@@ -368,7 +368,8 @@ In this project, we will
 
 They are self-explanatory.
 
-A real world example is in folder regression. The code ele_models.py evaluate several regressors in fitting electric potential by contributing factors.
+**A real world example**
+A real world example is in folder regression. The code ele_models.py evaluates several regressors in fitting electric potential by contributing factors.
 
 To run the code:
 ```
