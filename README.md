@@ -296,6 +296,12 @@ The focuses here are:
 35. **[Classification Trees in Python from Start to Finish](https://youtu.be/q90UDEgYqeI?si=NSERYgCcdCoFQzAz)**  
     *Duration: 66 minutes*  
     This video provides a comprehensive walkthrough of building and optimizing a classification tree in Python using scikit-learn. It covers key steps such as importing and preparing data, addressing missing values and categorical data through one-hot encoding, splitting the dataset, constructing an initial tree, and applying cost complexity pruning with cross-validation to develop a refined tree for predicting heart disease.
+36. **[Random Forests Part 1 - Building, Using and Evaluating](https://youtu.be/J4Wdy0Wc_xQ?si=Y65Sl7t6PrQKf9Cx)**  
+    *Duration: 10 minutes*  
+    This video covers the fundamentals of random forests, demonstrating how they enhance the accuracy of decision trees by aggregating predictions from multiple trees trained on bootstrapped samples and random feature subsets.
+37. **[Random Forests Part 2: Missing data and clustering](https://youtu.be/sQ870aTKqiM?si=vd5cmrtsLrbQKN48)**  
+    *Duration: 12 minutes*  
+    This video describes how random forests address missing data by iteratively updating initial estimates using sample similarities measured with a proximity matrix. It also explains how the proximity matrix can be leveraged for clustering and visualizing samples.
 </details>
 
 ### 3.2. Book Resources for Machine Learning Geeks and Historians (Optional)
