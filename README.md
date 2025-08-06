@@ -41,7 +41,7 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 Miniconda is a lightweight tool for managing Python environments and packages efficiently.
 
 #### 2.3.1. Installing Miniconda
-Follow the quickstart guide to install Miniconda: [Miniconda Installation Guide](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
+Follow the quickstart guide to install Miniconda (Choose Linux if you install minicoda under WSL): [Miniconda Installation Guide](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
 
 #### 2.3.2. Package Management Examples
 - **Search for a package:**
