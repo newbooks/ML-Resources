@@ -31,8 +31,8 @@ Here is a sample procedure to install WSL with an Ubuntu Linux distribution:
 ### 2.2. Integrated Development Environment (IDE) - Choose one
 <details>
 <summary>Click here to expand</summary>
-- [VS Code](https://code.visualstudio.com/): Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.
-- [PyCharm Community Edition](https://www.jetbrains.com/pycharm/download): A Python-focused IDE designed for efficient coding and debugging.
+- **[VS Code](https://code.visualstudio.com/):** Connect to remote SSH servers or WSL environments seamlessly, with support for GitHub's AI-powered coding assistance.  
+- **[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download):** A Python-focused IDE designed for efficient coding and debugging.  
 </details>
 
 ### 2.3. Managing Environments and Packages with Miniconda
